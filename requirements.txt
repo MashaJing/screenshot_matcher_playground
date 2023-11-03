@@ -1,0 +1,5 @@
+playwright==1.37.0
+vedro==1.10.0
+vedro-dev==0.2.1
+vedro-playwright==1.2.1
+vedro-screenshot-matcher==0.1.0
