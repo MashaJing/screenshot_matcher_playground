@@ -10,7 +10,7 @@ def get_main():
 
 @app.route('/media/Lancer.png', methods = ['GET'])
 def get_image():
-    return send_file('media/Lancer.png')
+    return send_file('media/Lancer_mustache.png')
 
 
 if __name__ == '__main__':
