@@ -1,0 +1,6 @@
+.venv/
+.idea/
+screenshots/
+.vedro
+*.png
+*.pyc

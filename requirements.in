@@ -1,0 +1,4 @@
+playwright>=1.37,<1.38
+vedro>=1.10,<2.0
+vedro-screenshot-matcher==0.1.0
+vedro-playwright>=1.2,<2.0
