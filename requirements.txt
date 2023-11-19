@@ -8,16 +8,30 @@ atomicwrites==1.4.1
     # via dessert
 attrs==23.1.0
     # via dessert
+blinker==1.7.0
+    # via flask
 cabina==0.7.2
     # via vedro
+click==8.1.7
+    # via flask
 dessert==1.4.7
     # via vedro
 filelock==3.13.1
     # via vedro
+flask==3.0.0
+    # via -r requirements.in
 greenlet==2.0.2
     # via playwright
+itsdangerous==2.1.2
+    # via flask
+jinja2==3.1.2
+    # via flask
 markdown-it-py==3.0.0
     # via rich
+markupsafe==2.1.3
+    # via
+    #   jinja2
+    #   werkzeug
 mdurl==0.1.2
     # via markdown-it-py
 munch==4.0.0
@@ -72,3 +86,5 @@ vedro-playwright==1.2.1
     # via -r requirements.in
 vedro-screenshot-matcher==0.1.0
     # via -r requirements.in
+werkzeug==3.0.1
+    # via flask

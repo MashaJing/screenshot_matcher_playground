@@ -9,6 +9,6 @@ async def opened_index_page():
     browser = await opened_local_browser(BrowserEngine.CHROMIUM, options={"headless": False})
     page = await browser.new_page()
 
-    await page.goto("file://" + environ["APP_URL"])
+    await page.goto(environ["APP_URL"])
 
     return page
