@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods = ['GET'])
 def get_main():
-    return send_file('main.html')
+    return send_file('index.html')
 
 
 @app.route('/media/Lancer.png', methods = ['GET'])

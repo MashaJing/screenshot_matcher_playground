@@ -11,5 +11,5 @@ class Scenario(vedro.Scenario):
         self.page = await opened_index_page()
 
     async def then_it_should_show_content(self):
-        self.main_block = self.page.locator(".p")
+        self.main_block = self.page.locator("main-content")
         assert await match_screenshot(self.main_block)  # Step 2: Add screenshot assertion
