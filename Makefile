@@ -4,10 +4,7 @@ export TEST_APP_URL ?= http://localhost:8000/
 
 .PHONY: install-dependencies
 install-dependencies:
-	@python3 -m venv .venv; \
-	source .venv/bin/activate; \
-	pip3 install -r requirements.txt; \
-	playwright install
+	@​​pip install -r requirements.in
 
 
 .PHONY: up
